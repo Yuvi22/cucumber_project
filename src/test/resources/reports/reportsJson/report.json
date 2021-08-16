@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-16T11:42:53.828Z",
+        "line": 12,
+        "name": "Check for successful login with valid credentials",
+        "description": "",
+        "id": "test-login;check-for-successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2677499300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1713438800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.goToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2319519900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Yuvi and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yuvi",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 21
+                }
+              ],
+              "location": "StepsForTests.LoginTestSteps.enterCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109293400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.clicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8604101100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the homepage",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.navigatedToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-16T11:43:09.463Z",
+        "line": 13,
+        "name": "Check for successful login with valid credentials",
+        "description": "",
+        "id": "test-login;check-for-successful-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2403584300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1447424700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.goToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2294882600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Manjeet and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manjeet",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 24
+                }
+              ],
+              "location": "StepsForTests.LoginTestSteps.enterCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 185296300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.clicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4529847000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the homepage",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.navigatedToHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-16T11:43:20.494Z",
+        "line": 24,
+        "name": "Check for unsuccessful login with invalid credentials",
+        "description": "",
+        "id": "test-login;check-for-unsuccessful-login-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2421452500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "browser is open",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1430350900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.goToLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2245742100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user enters Yuvi and 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yuvi",
+                  "offset": 12
+                },
+                {
+                  "val": "1234",
+                  "offset": 21
+                }
+              ],
+              "location": "StepsForTests.LoginTestSteps.enterCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89129100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.clicksOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7909945600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "error message is shown",
+            "match": {
+              "location": "StepsForTests.LoginTestSteps.errorMessageIsShown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Login",
+    "description": "",
+    "id": "test-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
